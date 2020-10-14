@@ -137,9 +137,9 @@ bool isSingleByteChar(char ch) {
 
 int main() {
     // Text path.
-    char* textPath = "C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Q5\\debate.txt";
+    char* textPath = "";
     // Redactable words path.
-    char* redactPath = "C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Q5\\redact.txt";
+    char* redactPath = "";
     // Import the text from file.
     char* text = importText(textPath);
     int len = mystrlen(text);
